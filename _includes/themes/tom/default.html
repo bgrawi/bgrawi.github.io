@@ -23,9 +23,7 @@
       <a href="{{ HOME_PATH }}">{{ site.title }}</a>
 
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
+     
     </div>
   
     {{ content }}
@@ -41,7 +39,6 @@
       <div class="contact">
         <p>
           <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
-          <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
         </p>
       </div>
       <div class="rss">
@@ -50,8 +47,7 @@
         </a>
       </div>
     </div>
-  </div>
-  <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+  </div>  
 
   {% include JB/analytics %}
 </body>

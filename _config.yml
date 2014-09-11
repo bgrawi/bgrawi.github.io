@@ -13,7 +13,7 @@ tagline: Software Engineering Student at RIT
 author :
   name : Ben Grawi
   email : bgrawi@github.io
-  github : username
+  github : bgrawi
   twitter : username
   feedburner : feedname
 
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://bgrawi.com
+production_url : http://www.bgrawi.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -70,8 +70,8 @@ JB :
   # Some JB helpers refer to these paths; change them here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
+  #categories_path : /categories.html
+  #tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
 
