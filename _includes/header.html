@@ -1,0 +1,17 @@
+<div id="headerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>Hi!</h3>
+                <h1>I love to make the web.</h1>
+                <h5>From database schemas, to application logic, to the front-end,</h5>
+                <h5><em>that's me.</em></h5>	
+				<p class="centered">
+				{% for network in site.social %}
+                    <a target="_blank" href="{{ network.url }}" class="btn"><i class="fa fa-2x fa-{{ network.title }}"></i></a>
+                {% endfor %}
+				</p>					
+            </div>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /headerwrap -->

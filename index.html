@@ -1,0 +1,59 @@
+---
+layout: index
+title: Home
+permalink: /
+---
+<div id="project-carousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+	<li data-target="#project-carousel" data-slide-to="0" class="active"></li>
+	<li data-target="#project-carousel" data-slide-to="1"></li>
+	<li data-target="#project-carousel" data-slide-to="2"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		{% for project in site.categories['project'] limit:3 %}
+			
+				<div class="item {% if forloop.first == true %}active{% endif %}">
+				<a href="{{project.url}}">
+				<div class="row">
+					<div class="col-md-8" style="height: 400px;background-size: cover; background-image: url('/assets/img/project/{{ | prepend: site.baseurl }}{{ project.img }}');">
+						
+					</div>
+					<div class="col-md-4">
+						<div class="container-fluid">
+							<p class="lead">
+							{{project.content}}
+							</p>
+						</div>
+					</div>
+				</div>
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+</div>
+{% include portfolio.html title="LATEST WORKS" limit=10 %}
+
+<div class="container mtb">
+    <div class="row">
+
+        <! -- BLOG POSTS LIST -->
+        <div class="col-lg-8 col-lg-offset-2">
+
+            {% for post in site.categories['blog'] %}
+                <! -- Blog Post -->
+                <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}"></p>
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                {{ post.excerpt }}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+                <div class="hline"></div>
+
+                <div class="spacing"></div>
+            {% endfor %}
+
+        </div><! --/col-lg-8 -->
+    </div><! --/row -->
+</div><! --/container -->

@@ -1,0 +1,64 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: Ben Grawi
+description: "The portfolio and blog of Ben Grawi"
+baseurl: ""
+url: "http://bgrawi.com"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" 
+  primary_rgb: "0,179,254" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: github
+    url: https://github.com/bgrawi
+  - title: linkedin
+    url: https://www.linkedin.com/in/bgrawi
+  - title: envelope
+    url: http://www.google.com/recaptcha/mailhide/d?k=01T0GVWSf2lp21C-M1QE7gEQ==&c=1PLniUwR-vVyezL0hlzkklnoUXsS3vobj3yGI2M3rW4=
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - 00866 Nathaniel Rochester Hall,
+    - Rochester, NY 14623
+email: bgrawi@csh.rit.edu
+tel: 
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+    
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "I'm a Software Engineering student at the Rochester Institute of Technology"
+
+# Testimonial content. Shown on Home and About page. 
+testimonial:
+    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    author: Marcel Newman
+    position: WEB DESIGNER - BLACKTIE.CO
