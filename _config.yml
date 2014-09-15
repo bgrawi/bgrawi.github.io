@@ -27,10 +27,10 @@ colors:  #in hex code if not noted else
 social:
   - title: github
     url: https://github.com/bgrawi
-  - title: linkedin
-    url: https://www.linkedin.com/in/bgrawi
   - title: envelope
     url: http://www.google.com/recaptcha/mailhide/d?k=01T0GVWSf2lp21C-M1QE7gEQ==&c=1PLniUwR-vVyezL0hlzkklnoUXsS3vobj3yGI2M3rW4=
+  - title: linkedin
+    url: https://www.linkedin.com/in/bgrawi
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
@@ -42,17 +42,7 @@ tel:
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "I'm a Software Engineering student at the Rochester Institute of Technology"

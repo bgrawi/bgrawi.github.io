@@ -1,0 +1,14 @@
+---
+layout: post
+title: "New Site!"
+date: 2014-04-25 16:54:46
+author: Ben Grawi
+categories:
+- blog
+- General
+img: img01.png
+thumb: thumb_img01.png
+---
+Hello everyone! I have finally redesigned my website and updated it with all my latest projects. I have switched off of
+the Ghost blogging platform and have moved to Jekyll and Github Pages. I look forward to making more blog posts in the 
+future.

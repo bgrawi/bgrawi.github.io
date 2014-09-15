@@ -1,0 +1,31 @@
+---
+layout: project
+title:  "Bryx 911"
+date:   2014-09-01 00:00:00
+author: Ben Grawi
+categories:
+- project
+img: bryx911_0.png
+thumb: thumb_bryx911_0.png
+carousel:
+- bryx911_0.png
+client: Bryx, Inc.
+website: http://bryx.com
+description: 911 alerts, call analytics, and management for first responders and dispatchers. 
+---
+####About
+I created the front end website for the Bryx 911 suite of apps. I wrote a Google Maps data visualizer, user management system, and live-updating alert feed for first responders and dispatchers so that they can view and respond to 911 alerts as they happen. 
+
+####Technologies
+
+* HTML/CSS/JS
+* AngularJS
+* Google Maps API
+* Bootstrap
+
+####Features
+
+* Google Maps data visualization
+* User Management
+* Real-time alerts shown on a map
+* Beautiful marketing/landing page

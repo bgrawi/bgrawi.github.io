@@ -4,16 +4,21 @@
         <div class="recentitems portfolio">
             {% for project in site.categories['project'] limit:include.limit %}
                 <div class="portfolio-item graphic-design">
-                    <a href="{{ project.url }}"><div class="he-wrap tpl6">
-                    <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" alt="">
-                        <div class="he-view">
-                            <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">{{ project.title }}</h3>
-								<h4 class="text-white centered a1" data-animate="fadeInUp">View <i class="fa fa-angle-right"></i></h4>
-                            </div><!-- he bg -->
-                        </div><!-- he view -->		
-						</a>
-                    </div><!-- he wrap -->
+                        <div class="he-wrap tpl6">
+                            <a href="{{ project.url }}">
+                            <img src="{{ '/assets/img/project/thumb/' | prepend: site.baseurl }}{{ project.thumb }}" alt="">
+                            <div class="he-view">
+                                <div class="bg a0" data-animate="fadeIn">
+                                    <h3 class="a1" data-animate="fadeInDown">{{ project.title }}</h3>
+                                    <br>
+                                    <h4 class="text-white centered a1" data-animate="fadeInUp">
+                                        <a target="_blank" class="btn btn-white-outline" href="{{project.website}}"><i class="fa fa-link"></i> Visit</a>
+                                        <a class="btn btn-white-outline" href="{{project.url}}"><i class="fa fa-info-circle"></i> About</a>
+                                    </h4>
+                                </div><!-- he bg -->
+                            </div><!-- he view -->
+                            </a>
+                        </div><!-- he wrap -->
                 </div><!-- end col-12 -->
             {% endfor %}
         </div><!-- portfolio -->
