@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/bgrawi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bgrawi.com
+  * I am bgrawi (https://keybase.io/bgrawi) on keybase.
+  * I have a public key with fingerprint 758F 0C5C 492A A95A D391  FC48 DE88 B4A9 86D8 B1C0
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "758f0c5c492aa95ad391fc48de88b4a986d8b1c0",
+            "host": "keybase.io",
+            "key_id": "de88b4a986d8b1c0",
+            "uid": "bb9003553e64b8614e3cbb0817237600",
+            "username": "bgrawi"
+        },
+        "service": {
+            "hostname": "bgrawi.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1415129932,
+    "expire_in": 157680000,
+    "prev": "7c64494e5a7560ff89e191e5f4f8e753afaaed5c33359da567947e0b43f9583c",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.3
+Comment: https://keybase.io/crypto
+
+yMLyAnicO8LLzMDFeK9jy8q2GxsPMJ4+8LaUISRS26daKSk/pVLJqlopOxVMpWXm
+pacWFRRl5pUoWSmZm1qkGSSbJptYGiUmWpomphhbGqYlm1ikpFpYJJkkWlqYpVgk
+GSYbKOkoZeQXg3QAjUlKLE7Vy8wHigE58ZkpQFEs6kvBEklJlgYGxqamxqlmJkkW
+ZoYmqcbJSUkGFobmRsbmZgZghcWpRXmJuakg1elFieWZSrU6SkCxsszkVJCLQRaj
+yOsl5+cC9RUU5ZfkJ+fnAMUzSkoKrEDaSioLQOrKU5PioSbEJ2XmpQD9DNRQllpU
+nJmfp2RlCFSZXJIJMtLQxNDU0MjS0thIRym1oiCzKDU+E6TC1NzMwgAIQNakloFC
+KtnMxMTSJNU00dzUzCAtzcIy1dDSMNU0zSTNItXc1DgxLTExNcU02djY2NQyJdHU
+zNzSxDzVIMnEOM3S1MI4WQnkp8K8fCUroE0lielAI4sz0/MSS0qLUpVqDx2MYWFg
+5GJgY2UCxRoDF6cALC7b5fj/xytyXkzUbGmZbKsi8zLiSs+NynMPpH7kv35j0VHK
+cVXk0lWlj9q5DVfdjW5XbJ/xxfrDgoMHdIOLWWQ2tzdNDkuUjuxILjK41aYlck6M
+uWZuy6cMx+9fM+e8FDm87Kzx4pBzvxOzQ1/0L8/fmnzv+M4DJ1K1/2/bdPjzeof5
+j/8c4DR/3bSfO7ZpapZM05IFaw+uPfmUv77oSPLRmZZyGjb3EwSX6qv+O/ny3tLV
+RaGNm7euXS16XjRhosH/vFcP9CwXrVY6+Mrqqs3Ki4aXP/dd81+UXSl5L68kyqMv
+tc+v5FAYg/o19f1ru2/PEWDmPyNQIlTC++aM/4Oq5MjZ7/fb3izVXjZjxZ7iL7bT
+MsulZyrPKnunlaLl3dZS9Viq4PKvP7N+T2CU2WcibfVR/ViF7FLZd0dPmIvcFwta
+P4NtZfP9dU+bFqQsCmA/tvNTd1XjcfFFOyanJO1d+9Q6uXdnbpjaBn7GNVs/B1xu
+Yv+wKHDd1MWfjX9LLN3WxdRyYOnFmJDzwq+e65nlxy4zfF3TxLxeqju79LfDsVxR
+51AZf+3DtTMWzmjQ1PKVmaB+aefXJb9eueXxrDtsKNuse1ald2LHgi9P35Uydk7b
+98i5uGxDj5Zpli6Parj9Q2kbNlel0j8n5tl1bok2M7uu33ec+/evvcEPV9xcxq6c
+vXzR7mWPcm6s+cyn8/qWt9Wr4ic+3/0OSMcWSBz7fRYAFxacBA==
+=Bz/m
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bgrawi
+
+==================================================================
