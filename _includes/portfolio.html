@@ -12,7 +12,7 @@
                                     <h3 class="a1" data-animate="fadeInDown">{{ project.title }}</h3>
                                     <br>
                                     <h4 class="text-white centered a1" data-animate="fadeInUp">
-                                        <a target="_blank" class="btn btn-white-outline" href="{{project.website}}"><i class="fa fa-link"></i> Visit</a>
+                                        {% if project.website %}<a target="_blank" class="btn btn-white-outline" href="{{project.website}}"><i class="fa fa-link"></i> Visit</a> {% endif %}
                                         <a class="btn btn-white-outline" href="{{project.url}}"><i class="fa fa-info-circle"></i> About</a>
                                     </h4>
                                 </div><!-- he bg -->

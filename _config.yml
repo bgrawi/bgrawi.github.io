@@ -2,7 +2,7 @@
 
 # Site settings
 title: Ben Grawi
-description: "The portfolio and blog of Ben Grawi"
+description: "The portfolio of Ben Grawi"
 baseurl: ""
 url: "http://bgrawi.com"
 
@@ -27,17 +27,14 @@ colors:  #in hex code if not noted else
 social:
   - title: github
     url: https://github.com/bgrawi
-  - title: envelope
-    url: http://www.google.com/recaptcha/mailhide/d?k=01T0GVWSf2lp21C-M1QE7gEQ==&c=1PLniUwR-vVyezL0hlzkklnoUXsS3vobj3yGI2M3rW4=
   - title: linkedin
     url: https://www.linkedin.com/in/bgrawi
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - 00866 Nathaniel Rochester Hall,
-    - Rochester, NY 14623
-email: bgrawi@csh.rit.edu
+    - View my resume for contact info.
+email: bengrawi@gmail.com
 tel: 
 
 
@@ -45,7 +42,7 @@ tel:
 
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "I'm a Software Engineering student at the Rochester Institute of Technology"
+about: "Senior Software Engineer at Google"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:

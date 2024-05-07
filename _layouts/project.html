@@ -21,7 +21,7 @@ layout: default
             <div class="hline"></div>
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
             <p><b>Client:</b> {{ page.client }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            {% if project.website %}<p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>{% endif %}
         </div>
     </div><! --/row -->
 </div><! --/container -->

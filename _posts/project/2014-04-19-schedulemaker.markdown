@@ -13,10 +13,10 @@ client: Computer Science House
 website: http://schedule.csh.rit.edu
 description: A tool used by RIT students to generate class schedules that work the best for them. 
 ---
-####About
+#### About
 CSH ScheduleMaker has had a long history. The project was initially created by jQuery founder John Resig, and then updated in 2011 by Benjamin Russell. I decided that it's style was in need of an update along with the need to work on mobile phones. I choose to first give it a fresh coat of paint with a heavily-modified version of Bootstrap, which soon evolved into a complete front-end rewrite of all of the logic into AngularJS. This tool is now used by thousands of RIT students and it help makes their lives easier  
 
-####Technologies:
+#### Technologies:
 
 * HTML/CSS/JS
 * AngularJS

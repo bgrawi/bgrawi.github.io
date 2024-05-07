@@ -37,7 +37,7 @@ permalink: /
                                     <p class="lead">
                                     {{project.description}}
                                     </p>
-                                    <a target="_blank" class="btn btn-outline btn-theme" href="{{project.website}}"><i class="fa fa-link"></i> Visit</a>
+                                    {% if project.website %}<a target="_blank" class="btn btn-outline btn-theme" href="{{project.website}}"><i class="fa fa-link"></i> Visit</a>{% endif %}
                                     <a class="btn btn-outline btn-theme" href="{{project.url}}"><i class="fa fa-info-circle"></i> About</a>
                                 </div>
                             </div>
@@ -56,32 +56,3 @@ permalink: /
     </a>
 </div>
 {% include portfolio.html limit=10 %}
-
-<div class="grey-bg">
-    <div class="container">
-        <div class="row">
-            <h2>&mdash; Blog &mdash;</h2>
-        </div><!-- /row -->
-    </div> <!-- /container -->
-</div>
-<div class="container mtb">
-    <div class="row">
-
-        <! -- BLOG POSTS LIST -->
-        <div class="col-lg-8 col-lg-offset-2">
-
-            {% for post in site.categories['blog'] %}
-                <! -- Blog Post -->
-                <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}"></p>
-                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
-                {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
-                <div class="hline"></div>
-
-                <div class="spacing"></div>
-            {% endfor %}
-
-        </div><! --/col-lg-8 -->
-    </div><! --/row -->
-</div><! --/container -->
