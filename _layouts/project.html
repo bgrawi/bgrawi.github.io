@@ -21,9 +21,9 @@ layout: default
             <div class="hline"></div>
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
             <p><b>Client:</b> {{ page.client }}</p>
-            {% if project.website %}<p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>{% endif %}
+            {% if page.website %}<p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>{% endif %}
         </div>
     </div><! --/row -->
 </div><! --/container -->
 	 
-{% include portfolio.html title="Other Projects" limit=5 %}
+{% include portfolio.html title="Other Projects" limit=10 %}

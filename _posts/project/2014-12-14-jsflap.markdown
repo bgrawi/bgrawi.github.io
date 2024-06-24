@@ -1,0 +1,32 @@
+---
+layout: project
+title:  "JSFlap"
+date:   2014-12-14 00:00:00
+author: Ben Grawi
+categories:
+- project
+img: jsflap_0.png
+thumb: thumb_jsflap_0.png
+carousel:
+- jsflap_0.png
+client: Side project
+website: https://jsflap.com/
+description: A browser-based re-implementation of Java Formal Languages and Automata Package that allows the creation and simulation of state and Turing Machines.
+---
+#### About
+Easily create and simulate finite state and Turing machines in a browser-based re-implementation of JFLAP, the Java Formal Languages and Automata Package. JFLAP is an incredibly important tool used in teaching the foundations of Computer Science Theory and is used in college classes around the world, however it was created before advances in modern user experience and application deliver were around. JSFLAP changes this by improving many of the poor user experiences, like requiring 5-6 clicks and menus to create a node and edge tool, I simplified this to a single click and drag gesture which is much more intuitive. By re-creating the basic flows, this is able to help teach students more quickly how the fundamentals of CS Theory work. Finite Automata and Turing Machines are the basis of language processing, computing, and higher-level concepts like Regular Expressions are all more easily expressed in JSFLAP.
+
+#### Technologies
+
+* Typescript
+* HTML/CSS
+* AngularJS
+* Foundation UI library
+* D3.js
+
+#### Features
+
+* Easy-to-use UX, just click and drag to make new nodes and edges
+* Keyboard shortcuts, snapping, multiple tools
+* Instant updates to test strings to test the graph
+* Export to PNG, file, and LaTeX.
